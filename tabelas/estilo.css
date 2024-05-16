@@ -1,0 +1,53 @@
+:root{
+    --Branco-cor: #fff;
+    --Preto-cor: rgb(49, 46, 46);
+    --Cinza-cor: rgb(209, 205, 205);
+}
+
+body, .tabelas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tabelas{
+    gap: 10px;
+}
+.tabela_1, .tabela_2, .tabela_3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+th, td{
+    border: solid 1px var(--Preto-cor);
+    padding: 1%;
+}
+img{
+    width: 100%;
+}
+
+
+.tabela_1 table{
+    width: 500px;
+}
+.tabela_1 th{
+    background-color: var(--Preto-cor);
+    color: var(--Branco-cor);
+}
+.cor{
+    background-color: var(--Cinza-cor);
+}
+
+.tabela_2 table{
+    width: 500px;
+}
+.img{
+    width: 20%;
+}
+
+.tabela_3 table{
+    width: 500px;
+}
